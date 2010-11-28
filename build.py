@@ -21,10 +21,6 @@ if __name__ == "__main__":
     else:
         print "Django er installað..."
     
-    print "Keyri Unit Test... Prufar bæði business logic og UI test líka"
-    print "Keyri: %s/kaka/manage.py test" % os.getcwd()
-    call(["python", "%s/kaka/manage.py" % os.getcwd(),"test"])
-    
     print "Set réttar slóðir inn í settings skjalið"
     f = open('%s/kaka/settings.py' % os.getcwd(), 'r')
     settings_file = f.read()
@@ -33,6 +29,10 @@ if __name__ == "__main__":
     f.write(settings_file.replace("OUR_TEMPLATE_DIR", os.getcwd()+"/kaka/templates/"))
     f.close()
     print "Búinn að setja réttar slóðir inn í settings skjal"
+    
+    print "Keyri Unit Test... Prufar bæði business logic og UI test líka"
+    print "Keyri: %s/kaka/manage.py test" % os.getcwd()
+    call(["python", "%s/kaka/manage.py" % os.getcwd(),"test"])
     
     #edit settings skjalið með slóð að templates
     print "Keyri code coverage"
