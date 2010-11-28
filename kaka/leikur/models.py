@@ -1,3 +1,8 @@
-from django.db import models
-
-# Create your models here.
+right_answers = {
+    "1":"d",
+    "2":"d",
+    "3":"d",
+    "4":"b",
+    "5":"c",
+    "6":"a"
+}
