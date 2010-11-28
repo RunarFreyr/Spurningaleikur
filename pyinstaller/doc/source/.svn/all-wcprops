@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/1190/trunk/doc/source
+END
+Manual.rst
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/1190/trunk/doc/source/Manual.rst
+END
+docutils.conf
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/58/trunk/doc/source/docutils.conf
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/911/trunk/doc/source/Makefile
+END

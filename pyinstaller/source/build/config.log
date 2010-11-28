@@ -1,0 +1,148 @@
+# project  configured on Sun Nov 28 18:14:21 2010 by
+# waf 1.5.18 (abi 7, python 20606f0 on darwin)
+# using ./waf configure build install
+#
+
+----------------------------------------
+Checking for program gcc or cc
+  find program=['gcc', 'cc'] paths=[] var='CC'
+  -> '/usr/bin/gcc'
+
+----------------------------------------
+Checking for program cpp
+  find program=['cpp'] paths=[] var='CPP'
+  -> '/usr/bin/cpp'
+
+----------------------------------------
+Checking for program ar
+  find program=['ar'] paths=[] var='AR'
+  -> '/usr/bin/ar'
+
+----------------------------------------
+Checking for program ranlib
+  find program=['ranlib'] paths=[] var='RANLIB'
+  -> '/usr/bin/ranlib'
+
+----------------------------------------
+Checking for gcc 
+ok 
+
+----------------------------------------
+Checking for program python
+  find program=['python'] paths=[] var='PYTHON'
+  -> '/opt/local/Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python'
+
+----------------------------------------
+Checking for Python version 
+2.6.6
+Configuration returned from '/opt/local/Library/Frameworks/Python.framework/Versions/2.6/Resources/Python.app/Contents/MacOS/Python':
+python_prefix = '/opt/local/Library/Frameworks/Python.framework/Versions/2.6'
+python_SO = '.so'
+python_SYSLIBS = ''
+python_LDFLAGS = '-L/opt/local/lib'
+python_SHLIBS = '-ldl  -framework CoreFoundation'
+python_LIBDIR = '/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib'
+python_LIBPL = '/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/config'
+INCLUDEPY = '/opt/local/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6'
+Py_ENABLE_SHARED = 0
+MACOSX_DEPLOYMENT_TARGET = '10.6'
+
+
+# Trying LIBDIR: ['/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib']
+
+----------------------------------------
+Checking for library python2.6
+==>
+
+int main() {
+	return 0;
+}
+
+<==
+[1/2] [32mcc: build/.conf_check_0/test.c -> build/.conf_check_0/testbuild/default/test_1.o
+[0m['/usr/bin/gcc', '../test.c', '-c', '-o', 'default/test_1.o']
+[2/2] [33mcc_link: build/.conf_check_0/testbuild/default/test_1.o -> build/.conf_check_0/testbuild/default/testprog
+[0m['/usr/bin/gcc', 'default/test_1.o', '-o', '/Users/gudbergur/Dropbox/Skoli/Hugbu\xcc\x81na\xc3\xb0arfr\xc3\xa6\xc3\xb0i/verkefni2/pyinstaller/source/build/.conf_check_0/testbuild/default/testprog', '-framework', 'CoreFoundation', '-L/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib', '-lpython2.6', '-ldl']
+yes
+
+----------------------------------------
+Checking for program python2.6-config
+  find program=['python2.6-config'] paths=[] var='PYTHON_CONFIG'
+  -> '/opt/local/bin/python2.6-config'
+Include path for Python extensions (found via python-config --includes): ['/opt/local/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6']
+
+----------------------------------------
+Checking for custom code
+==>
+
+#include "Python.h"
+#ifdef __cplusplus
+extern "C" {
+#endif
+	void Py_Initialize(void);
+	void Py_Finalize(void);
+#ifdef __cplusplus
+}
+#endif
+int main()
+{
+   Py_Initialize();
+   Py_Finalize();
+   return 0;
+}
+
+<==
+[1/2] [32mcc: build/.conf_check_0/test.c -> build/.conf_check_0/testbuild/default/test_1.o
+[0m['/usr/bin/gcc', '-fno-strict-aliasing', '-I/opt/local/Library/Frameworks/Python.framework/Versions/2.6/include/python2.6', '../test.c', '-c', '-o', 'default/test_1.o']
+[2/2] [33mcc_link: build/.conf_check_0/testbuild/default/test_1.o -> build/.conf_check_0/testbuild/default/testprog
+[0m['/usr/bin/gcc', 'default/test_1.o', '-o', '/Users/gudbergur/Dropbox/Skoli/Hugbu\xcc\x81na\xc3\xb0arfr\xc3\xa6\xc3\xb0i/verkefni2/pyinstaller/source/build/.conf_check_0/testbuild/default/testprog', '-framework', 'CoreFoundation', '-L/opt/local/Library/Frameworks/Python.framework/Versions/2.6/lib', '-ldl', '-lpython2.6']
+yes
+
+----------------------------------------
+Checking for library z
+==>
+
+int main() {
+	return 0;
+}
+
+<==
+[1/2] [32mcc: build/.conf_check_0/test.c -> build/.conf_check_0/testbuild/default/test_1.o
+[0m['/usr/bin/gcc', '-I../common', '../test.c', '-c', '-o', 'default/test_1.o']
+[2/2] [33mcc_link: build/.conf_check_0/testbuild/default/test_1.o -> build/.conf_check_0/testbuild/default/testprog
+[0m['/usr/bin/gcc', 'default/test_1.o', '-o', '/Users/gudbergur/Dropbox/Skoli/Hugbu\xcc\x81na\xc3\xb0arfr\xc3\xa6\xc3\xb0i/verkefni2/pyinstaller/source/build/.conf_check_0/testbuild/default/testprog', '-lz']
+yes
+
+----------------------------------------
+Checking for function readlink
+==>
+#include <unistd.h>
+
+	int main() {
+	void *p;
+	p=(void*)(readlink);
+	return 0;
+}
+
+<==
+[1/2] [32mcc: build/.conf_check_0/test.c -> build/.conf_check_0/testbuild/default/test_1.o
+[0m['/usr/bin/gcc', '-I../common', '../test.c', '-c', '-o', 'default/test_1.o']
+[2/2] [33mcc_link: build/.conf_check_0/testbuild/default/test_1.o -> build/.conf_check_0/testbuild/default/testprog
+[0m['/usr/bin/gcc', 'default/test_1.o', '-o', '/Users/gudbergur/Dropbox/Skoli/Hugbu\xcc\x81na\xc3\xb0arfr\xc3\xa6\xc3\xb0i/verkefni2/pyinstaller/source/build/.conf_check_0/testbuild/default/testprog']
+yes
+
+----------------------------------------
+Checking for flags -Wl,--as-needed
+==>
+
+int main() {
+	return 0;
+}
+
+<==
+[1/2] [32mcc: build/.conf_check_0/test.c -> build/.conf_check_0/testbuild/default/test_1.o
+[0mi686-apple-darwin10-gcc-4.2.1: --as-needed: linker input file unused because linking not done
+['/usr/bin/gcc', '-DHAVE_READLINK', '-Wl,--as-needed', '-I../common', '../test.c', '-c', '-o', 'default/test_1.o']
+[2/2] [33mcc_link: build/.conf_check_0/testbuild/default/test_1.o -> build/.conf_check_0/testbuild/default/testprog
+[0m['/usr/bin/gcc', 'default/test_1.o', '-o', '/Users/gudbergur/Dropbox/Skoli/Hugbu\xcc\x81na\xc3\xb0arfr\xc3\xa6\xc3\xb0i/verkefni2/pyinstaller/source/build/.conf_check_0/testbuild/default/testprog']
+yes

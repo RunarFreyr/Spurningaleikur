@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/679/trunk/buildtests/relimp3a
+END
+relimp3b.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/679/trunk/buildtests/relimp3a/relimp3b.py
+END
+relimp3c.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/679/trunk/buildtests/relimp3a/relimp3c.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/679/trunk/buildtests/relimp3a/__init__.py
+END

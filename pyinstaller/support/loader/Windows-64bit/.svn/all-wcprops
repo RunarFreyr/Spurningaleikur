@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/1194/trunk/support/loader/Windows-64bit
+END
+inprocsrvr.dll
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/inprocsrvr.dll
+END
+inprocsrvr_d.dll
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/inprocsrvr_d.dll
+END
+run.exe
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/run.exe
+END
+run_d.exe
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/run_d.exe
+END
+inprocsrvrw.dll
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/inprocsrvrw.dll
+END
+inprocsrvrw_d.dll
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/inprocsrvrw_d.dll
+END
+runw.exe
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/runw.exe
+END
+runw_d.exe
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/!svn/ver/1194/trunk/support/loader/Windows-64bit/runw_d.exe
+END

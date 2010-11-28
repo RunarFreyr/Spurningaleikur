@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/!svn/ver/703/trunk/pyi_optik
+END
+help.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/642/trunk/pyi_optik/help.py
+END
+option.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/642/trunk/pyi_optik/option.py
+END
+errors.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/642/trunk/pyi_optik/errors.py
+END
+textwrap.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/642/trunk/pyi_optik/textwrap.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/642/trunk/pyi_optik/__init__.py
+END
+option_parser.py
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/642/trunk/pyi_optik/option_parser.py
+END

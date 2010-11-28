@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/!svn/ver/159/trunk/source/zlib
+END
+inffast.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/159/trunk/source/zlib/inffast.h
+END
+ioapi.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/ioapi.c
+END
+inffixed.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/159/trunk/source/zlib/inffixed.h
+END
+unzip.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/unzip.c
+END
+zlib.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/19/trunk/source/zlib/zlib.h
+END
+ioapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/ioapi.h
+END
+crypt.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/crypt.h
+END
+zutil.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/zutil.c
+END
+unzip.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/unzip.h
+END
+crc32.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/crc32.c
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/159/trunk/source/zlib/README
+END
+zutil.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/zutil.h
+END
+inftrees.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/159/trunk/source/zlib/inftrees.c
+END
+crc32.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/159/trunk/source/zlib/crc32.h
+END
+inflate.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/159/trunk/source/zlib/inflate.c
+END
+inftrees.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/159/trunk/source/zlib/inftrees.h
+END
+zconf.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/19/trunk/source/zlib/zconf.h
+END
+inflate.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/159/trunk/source/zlib/inflate.h
+END
+inffast.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/159/trunk/source/zlib/inffast.c
+END
+adler32.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/159/trunk/source/zlib/adler32.c
+END

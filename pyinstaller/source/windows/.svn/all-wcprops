@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/1190/trunk/source/windows
+END
+dllmain.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/1190/trunk/source/windows/dllmain.c
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/1190/trunk/source/windows/utils.c
+END
+icon1.ico
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/2/trunk/source/windows/icon1.ico
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/903/trunk/source/windows/manifest.xml
+END
+run.rc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/1190/trunk/source/windows/run.rc
+END
+iconw.ico
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/2/trunk/source/windows/iconw.ico
+END
+dllmain.def
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/545/trunk/source/windows/dllmain.def
+END
+resource.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/285/trunk/source/windows/resource.h
+END
+runw.rc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/1190/trunk/source/windows/runw.rc
+END

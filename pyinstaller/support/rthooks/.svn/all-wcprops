@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/!svn/ver/767/trunk/support/rthooks
+END
+pyi_rth_qt4plugins.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/!svn/ver/699/trunk/support/rthooks/pyi_rth_qt4plugins.py
+END
+versioneddll.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/43/trunk/support/rthooks/versioneddll.py
+END
+pyi_rth_django.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/717/trunk/support/rthooks/pyi_rth_django.py
+END
+pyi_rth_mpldata.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/699/trunk/support/rthooks/pyi_rth_mpldata.py
+END
+pyi_rth_opengl.py
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/767/trunk/support/rthooks/pyi_rth_opengl.py
+END
+pyi_rth_babel.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/698/trunk/support/rthooks/pyi_rth_babel.py
+END
+win32comgenpy.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/485/trunk/support/rthooks/win32comgenpy.py
+END

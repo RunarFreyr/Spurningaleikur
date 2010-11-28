@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/623/trunk/source/crypto
+END
+block_template.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/623/trunk/source/crypto/block_template.c
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/623/trunk/source/crypto/setup.py
+END
+AES.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/!svn/ver/623/trunk/source/crypto/AES.c
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/623/trunk/source/crypto/setup.cfg
+END

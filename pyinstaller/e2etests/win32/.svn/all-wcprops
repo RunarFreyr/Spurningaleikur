@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/!svn/ver/545/trunk/e2etests/win32
+END
+NextID.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/485/trunk/e2etests/win32/NextID.py
+END
+testMSOffice.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/485/trunk/e2etests/win32/testMSOffice.py
+END
+testNextID.vbs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/545/trunk/e2etests/win32/testNextID.vbs
+END
+testcomext.py
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/43/trunk/e2etests/win32/testcomext.py
+END
+testEnsureDispatch.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/2/trunk/e2etests/win32/testEnsureDispatch.py
+END
+readme.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/2/trunk/e2etests/win32/readme.txt
+END
