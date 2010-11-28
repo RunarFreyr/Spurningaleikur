@@ -1,8 +1,0 @@
-K 10
-svn:ignore
-V 46
-testctypes.dylib
-testctypes.dll
-testctypes.so
-
-END
