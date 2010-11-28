@@ -78,8 +78,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'kaka.urls'
 
 TEMPLATE_DIRS = (
-    "/Users/gudbergur/Dropbox/Skoli/Hugbúnaðarfræði/verkefni2/kaka/templates"
-
+    "OUR_TEMPLATE_DIR",
 )
 
 INSTALLED_APPS = (
